@@ -33,7 +33,7 @@ jobs:
 ```sh
 
  > git commit -m "Add workflow"
- > git push orin master
+ > git push origin master
 
 ```
 
