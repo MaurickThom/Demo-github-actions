@@ -27,7 +27,13 @@ jobs:
           critical_message: ¡Alerta! Recuerda modificar el vault 
           critical_files: |
             .env
-
+      - uses: codelytv/check-critical-files@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          critical_message: ¡Alerta! Recuerda commitear el .lock 
+          critical_files: |
+            package.json
+	    composer.json
 ```
 
 ```sh
