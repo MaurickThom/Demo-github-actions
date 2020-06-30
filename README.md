@@ -33,7 +33,8 @@ jobs:
           critical_message: ¡Alerta! Recuerda commitear el .lock 
           critical_files: |
             package.json
-	    composer.json
+            composer.json
+
 ```
 
 ```sh
