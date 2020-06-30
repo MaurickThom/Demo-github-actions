@@ -39,7 +39,7 @@ jobs:
 
 ```sh
 
- > git commit -m "Add workflow"
+ > git add . && git commit -m "Add workflow"
  > git push origin master
  > git switch -c demo
  > touch my-file
