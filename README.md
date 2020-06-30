@@ -34,6 +34,18 @@ jobs:
 
  > git commit -m "Add workflow"
  > git push origin master
+ > git switch -c demo
+ > touch my-file
+ > git add . && git commit -m "Add my-file"
+ > git push origin demo
+
+```
+
+> Recommendation for branches that are not marked -> pull request : draft pull request
+
+```sh
+
+ > vim .env # something
 
 ```
 
