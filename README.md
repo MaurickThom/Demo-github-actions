@@ -52,8 +52,14 @@ jobs:
 
 ```sh
 
- > vim .env # something
+ > echo "something" >> .env
  > git add . && git commit -m "Add .env" && git push origin demo
+```
+
+```sh
+
+ > echo "something" >> package.json
+ > git add . && git commit -m "Add package.json" && git push origin demo
 ```
 
 ## References
